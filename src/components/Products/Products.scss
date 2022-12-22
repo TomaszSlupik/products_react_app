@@ -1,0 +1,36 @@
+.products {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    &__box {
+        width: 95%;
+        height: 400px;
+        &-text {
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+
+}
+
+@media (min-width:576px) {
+    .products {
+        &__box {
+            width: 80%;
+            &-text {
+                font-size: 3rem;
+            }
+        
+        }
+    }
+}
+
+@media (min-width:1200px) {
+    .products {
+        &__box {
+            width: 60%;
+        }
+    }
+}
