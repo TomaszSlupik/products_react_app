@@ -39,6 +39,12 @@ ref, name, city, price
     -React
     -Material UI
 
+Per page we have 5 products and we can go to next page and see next products.
+We can add new products. When we add products I done walidation to input ref and price. We must put number or float.
+Bin is to delete all products. When we clik bin we get window with message - are sure you want to delete it.
+When we click product we can change and edit: City, Price and Ref.
+We can sort and filter all column.  
+
 
 This page can use in Desktop version 💻
 or Mobile version 📱. 
